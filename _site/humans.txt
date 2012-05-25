@@ -1,0 +1,20 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Yoosuf Muhammad
+  Site: http://eyoosuf.com
+  Twitter: @eyoosuf
+  Location: London, United Kingdom
+
+
+  Designer: Rifakath Mohamed
+  Site: http://rifakath.com
+  Location: Colombo, Sri Lanka
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: Jekyll

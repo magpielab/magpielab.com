@@ -1,0 +1,153 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Organization" lang="en">
+		<meta charset="utf-8"/>
+
+{% case page.layout %}
+{% when 'default' %}
+		<!-- TO Fancy SEARCH ENGINE -->
+		<title>Web Design, Web Development, and Mobile Development - Magpie Lab</title>
+		<meta name="description" content="Web design, Web application development & mobile application development adhering to web standards (CSS3, JavaScript & HTML5) using free software and open source technologies."/>
+
+		<!-- TO FANCY GOOGLE -->
+		<meta itemprop="name" content="Web Design, Web Development, and Mobile Development - Magpie Lab"/>
+		<meta itemprop="description" content="Web design, Web application development & mobile application development adhering to web standards (CSS3, JavaScript & HTML5) using free software and open source technologies."/>
+
+		<!-- TO FANCY FACEBOOK -->
+		<meta property="og:title" content="Web Design, Web Development, and Mobile Development - Magpie Lab" />
+		<meta property="og:type" content="company" />
+		<meta property="og:url" content="http://magpielab.com/" />
+		<meta property="og:site_name" content="Magpie lab" />
+
+
+{% else %}
+		<title>{{ site.tagline }} - {{ page.title }} - MagpieLab</title>
+		<meta name="description" content="Web design, Web application development & mobile application development adhering to web standards (CSS3, JavaScript & HTML5) using free software and open source technologies."/>
+
+		<meta itemprop="name" content="{{ site.tagline }} - {{ page.title }} - MagpieLab"/>
+		<meta itemprop="description" content="Web design, Web application development & mobile application development adhering to web standards (CSS3, JavaScript & HTML5) using free software and open source technologies."/>
+
+		<meta property="og:title" content="{{ site.tagline }} - {{ page.title }} - MagpieLab" />
+		<meta property="og:type" content="company" />
+		<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" />
+		<meta property="og:image" content="http://magpielab.com/img.png" />
+		<meta property="og:site_name" content="Magpie Lab" />
+
+
+{% endcase %}
+		<meta name="keywords" content="web design, web application development, UI design, CSS, XHTML, web standards, small business web design, web design consultancy, Magpie Lab"/>
+		<meta name="robots" content="noodp" />
+
+		<meta property="fb:app_id" content="256761344387606"/>
+		<meta property="fb:admins" content="100002519785434"/>
+
+		<link rel="canonical" href="http://magpielab.com/"/>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+
+
+		
+		<link rel="stylesheet" media="all" href="/static/css/style.css"/>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+		<link href="http://feeds.feedburner.com/magpielab" rel="alternate" title="{{ site.sitename }} | {{ site.tagline }}" type="application/atom+xml" />
+		<link rel="search" type="application/opensearchdescription+xml" title="Website" href="opensearch.xml" />
+
+	</head>
+
+	
+	<body class="{% body_class %}">
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=256761344387606";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+
+		$(window).bind("load resize", function(){    
+		  var container_width = $('.comments').width();    
+		    $('.comments').html('<div class="fb-comments" ' + 
+		    'data-href="{{ site.production_url }}{{ page.url }}"' +
+		    ' data-width="' + container_width + '"' +
+		    'data-num-posts="2"></div>');
+		    FB.XFBML.parse( );    
+		}); 
+
+
+
+		</script>
+
+		<div id="wrapper">
+			<header id="header">
+				<div class="inner">
+{% case page.layout %}
+{% when 'default' %}
+					<hgroup><h1 id="site-name">Magpie Lab</h1></hgroup>	
+
+{% else %}
+					<div id="site-name">Magpie Lab</div>
+{% endcase %}
+
+
+				<nav id="navigation">
+
+
+
+					{% unless page.layout == 'front' %}
+					  <ul class="navigation">
+					    {% for link in site.navigation %}
+					      {% assign current = nil %}
+					      {% if page.url == link.url or page.layout == link.layout %}
+					        {% assign current = 'current' %}
+					      {% endif %}
+
+					      <li class="{% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+					        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+					      </li>
+					    {% endfor %}
+					    <li><a data-toggle="modal" data-controls-modal="modal" data-backdrop="fade" href="#contact">Contact us</a></li>
+
+
+					  </ul>
+					{% endunless %}
+
+				</nav>
+
+<!--
+
+<div class="spread-love">
+
+<div class="g-plusone" data-size="small"></div>
+<script type="text/javascript">gapi.plusone.go();</script>
+
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="@magpielab creates websites adhering to web standards (CSS3 & HTML5)" data-related="magpielab" data-hashtags="WebDevelopment, WebDesign, WebStrategy">Tweet</a>
+</div>
+
+-->
+
+				</div>
+			</header>
+{% case page.layout %}
+{% when 'default' %}
+			<section id="banner" class="section">
+				<div class="inner">
+					<p class="atract"><span class="darker">We craft things</span><br> for incredible people</p>
+					<p class="actions">Interested working with us? <a data-toggle="modal" data-controls-modal="modal" data-backdrop="static" href="#contact" class="button big action">Get in touch</a></p>
+				</div>
+			</section>
+{% endcase %}
+
+			<div id="main">
+				<div class="inner">
+
+
+

@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spa",
+				"span"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"vali",
+				"valid_email"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"set",
+				"set_rules"
+			],
+			[
+				"form",
+				"form_validation"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background	background-color: transparent"
+			],
+			[
+				"dis",
+				"display	display: inline"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font	font-size: size"
+			],
+			[
+				"bord",
+				"border	border-right: size style color"
+			],
+			[
+				"ma",
+				"margin	margin: T R B L"
+			],
+			[
+				"border",
+				"border	border-bottom-width: size"
+			],
+			[
+				"font",
+				"font	font: size font"
+			],
+			[
+				"list",
+				"list	list-style-type: asian"
+			],
+			[
+				"mar",
+				"margin	margin-left: length"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"SPA",
+				"span	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yoosuf/Projects/heroku/magpielab/_plugins/generate_sitemap.rb",
+		"/Users/yoosuf/Projects/heroku/magpielab/_includes/header.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/static/less/style.less",
+		"/Users/yoosuf/Projects/heroku/magpielab/_includes/article.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/static/js/script.js",
+		"/Users/yoosuf/Projects/heroku/magpielab/_plugins/sitemap_generator.rb",
+		"/Users/yoosuf/Projects/heroku/magpielab/robots.txt",
+		"/Users/yoosuf/Projects/heroku/magpielab/_config.yml",
+		"/Users/yoosuf/Projects/heroku/magpielab/_plugins/asset_bundler.rb",
+		"/Users/yoosuf/Projects/heroku/magpielab/_includes/footer.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/static/js/bootstrap.min.js",
+		"/Users/yoosuf/Projects/heroku/magpielab/index.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/_layouts/page.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/about/index.html",
+		"/Users/yoosuf/Projects/htdocs/peach/application/config/config.php",
+		"/Users/yoosuf/Projects/htdocs/peach/.htaccess",
+		"/Users/yoosuf/Projects/htdocs/peach/.htaccess~",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/controllers/auth.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/views/invitation.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/models/ion_auth_model.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/config/ion_auth.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/views/login.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/modules/auth/views/sign_up.php",
+		"/Users/yoosuf/Projects/htdocs/peach/application/config/database.php",
+		"/Users/yoosuf/Projects/javascript/todomvc/architecture-examples/jquery/index.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/404.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/.gitignore",
+		"/Users/yoosuf/Projects/heroku/magpielab/_posts/2012-05-07-behind-the-schen.md",
+		"/Users/yoosuf/Projects/heroku/magpielab/_posts/2012-05-14-on-social-and-mobile.md",
+		"/Users/yoosuf/Projects/heroku/magpielab/config.ru",
+		"/Users/yoosuf/Projects/heroku/magpielab/Gemfile",
+		"/Users/yoosuf/Projects/heroku/magpielab/blog/index.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/_layouts/post.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/_layouts/default.html",
+		"/Users/yoosuf/Projects/heroku/jekyll-heroku/index.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/Gemfile.lock",
+		"/Users/yoosuf/Projects/heroku/magpielab/Procfile",
+		"/Users/yoosuf/Projects/heroku/jekyll-heroku/_layouts/post.html",
+		"/Users/yoosuf/Projects/heroku/magpielab/_layouts/archive.html",
+		"/Users/yoosuf/Projects/heroku/jekyll-heroku/Gemfile.lock",
+		"/Users/yoosuf/Projects/heroku/jekyll-heroku/_config.yml",
+		"/Users/yoosuf/Projects/heroku/magpielab/_posts/2012-05-03-hello-you.md",
+		"/Users/yoosuf/Projects/heroku/magpielab/.gems",
+		"/Users/yoosuf/Projects/heroku/magpielab/Rakefile",
+		"/Users/yoosuf/Projects/heroku/magpielab/magpielab.sublime-project",
+		"/Users/user/Projects/heroku/magpielab/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/user/Projects/appengine/eyoosuf.com/base.html",
+		"/Users/user/Projects/heroku/magpielab/app/models/test.rb",
+		"/Users/user/Projects/heroku/magpielab/config/routes.rb",
+		"/Users/user/Projects/heroku/magpielab/app/mailers/.gitkeep",
+		"/Users/user/Projects/htdocs/peach/application/views/site/includes/header.php",
+		"/Users/user/Projects/htdocs/peach/application/views/site/includes/footer.php",
+		"/Users/user/Projects/htdocs/peach/application/views/site/includes/footer",
+		"/Users/user/Projects/htdocs/peach/application/views/site/home.php",
+		"/Users/user/Projects/htdocs/peach/application/views/welcome_message.php",
+		"/Users/user/Projects/htdocs/peach/application/third_party/MX/Modules.php",
+		"/Users/user/Projects/appengine/eyoosuf.com/static/less/style.less",
+		"/Users/user/Projects/appengine/eyoosuf.com/static/js/script.js",
+		"/Users/user/Projects/appengine/eyoosuf.com/about.html",
+		"/Users/user/Projects/appengine/eyoosuf.com/app.yaml",
+		"/Users/user/Projects/appengine/eyoosuf.com/New Folder/index.html",
+		"/Users/user/Projects/appengine/eyoosuf.com/work.html",
+		"/Users/user/Projects/appengine/eyoosuf.com/index.html",
+		"/Users/user/Projects/appengine/eyoosuf.com/eyoosuf.com.sublime-project",
+		"/Users/user/Projects/appengine/eyoosuf.com/contact.html",
+		"/Users/user/Projects/javascript/raphael/socialicons/index.html",
+		"/Users/user/Projects/javascript/raphael/socialicons/js/raphael-min.js",
+		"/Users/user/Projects/appengine/flaskcms/app.yaml",
+		"/Users/user/Dropbox/2012/CMT4061/CW3/summery.md",
+		"/Users/user/Projects/appengine/flaskcms/application/__init__.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\" ",
+			"email",
+			" %}",
+			"efefef",
+			"developer",
+			"\n\n@body: #4D926F;\n@content: #4D926F;\n@color: #4D926F;\n@footer: #4D926F;\n@link: #44B3E3;\n@hover: #333333;\n@nav:#EEEEEE;\n\n@thin-border:#cccccc;\n@thick-border:#efefef;\n\n@button-border:#cccccc;\n@button-bg:#e7e7e7;\n@button-bg-darck:#e7e7e7;\n@button-bg-light:#ffffff;\n\n@active-button-border:#337fcd;\n@active-button-bg:#cccccc;\n@active-button-bg-darck:#cccccc;\n@active-button-bg-light:#efefef;\n\n\n/*\n----------------------------\n*/\n\n/*	Less Framework 4\n	http://lessframework.com\n	by Joni Korpi\n	License: http://opensource.org/licenses/mit-license.php	*/\n\n\n/*	Resets\n	------	*/\n\nhtml, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, \np, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, \nimg, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, \ndl, dt, dd, ol, ul, li, fieldset, form, label, legend, \ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figure, figcaption, hgroup, \nmenu, footer, header, nav, section, summary, time, mark, audio, video {\n	margin: 0;\n	padding: 0;\n	border: 0;\n}\n\narticle, aside, canvas, figure, figure img, figcaption, hgroup,\nfooter, header, nav, section, audio, video {\n	display: block;\n}\n\na img {border: 0;}\n\n\n\n/* --------------------------------------------------------------\n\n   typography.css\n   * Sets up some sensible default typography.\n\n-------------------------------------------------------------- */\n\n/* Default font settings.\n   The font-size percentage is of 16px. (0.75 * 16px = 12px) */\nhtml { font-size:100.01%; }\nbody {\n  font: 16px/24px Georgia, serif;\n  color: #222;\n  background: #fff;\n  /*font-family: \"Helvetica Neue\", Arial, Helvetica, sans-serif;*/\n}\n\n\n/* Headings\n-------------------------------------------------------------- */\n\nh1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }\n\nh1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }\nh2 { font-size: 2em; margin-bottom: 0.75em; }\nh3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }\nh4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }\nh5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }\nh6 { font-size: 1em; font-weight: bold; }\n\nh1 img, h2 img, h3 img,\nh4 img, h5 img, h6 img {\n  margin: 0;\n}\n\n\n/* Text elements\n-------------------------------------------------------------- */\n\np           { margin: 0 0 1.5em; }\n/* \n	These can be used to pull an image at the start of a paragraph, so \n	that the text flows around it (usage: <p><img class=\"left\">Text</p>) \n */\n.left  			{ float: left !important; }\np .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }\n.right 			{ float: right !important; }\np .right 		{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }\n\na:focus,\na:hover     { color: #09f; }\na           { color: #06c; text-decoration: underline; }\n\nblockquote  { margin: 1.5em; color: #666; font-style: italic; }\nstrong,dfn	{ font-weight: bold; }\nem,dfn      { font-style: italic; }\nsup, sub    { line-height: 0; }\n\nabbr,\nacronym     { border-bottom: 1px dotted #666; }\naddress     { margin: 0 0 1.5em; font-style: italic; }\ndel         { color:#666; }\n\npre         { margin: 1.5em 0; white-space: pre; }\npre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }\n\n\n/* Lists\n-------------------------------------------------------------- */\n\nli ul,\nli ol       { margin: 0; }\nul, ol      { margin: 0 1.5em 1.5em 0; padding-left: 1.5em; }\n\nul          { list-style-type: disc; }\nol          { list-style-type: decimal; }\n\ndl          { margin: 0 0 1.5em 0; }\ndl dt       { font-weight: bold; }\ndd          { margin-left: 1.5em;}\n\n\n/* Misc classes\n-------------------------------------------------------------- */\n\n.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }\n.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }\n.hide       { display: none; }\n\n.quiet      { color: #666; }\n.loud       { color: #000; }\n.highlight  { background:#ff0; }\n.added      { background:#060; color: #fff; }\n.removed    { background:#900; color: #fff; }\n\n.first      { margin-left:0; padding-left:0; }\n.last       { margin-right:0; padding-right:0; }\n.top        { margin-top:0; padding-top:0; }\n.bottom     { margin-bottom:0; padding-bottom:0; }\n\n\n\n/* Selection colours (easy to forget) */\n\n::selection 	 	{background: rgb(255,255,158);}\n::-moz-selection 	{background: rgb(255,255,158);}\nimg::selection 		{background: transparent;}\nimg::-moz-selection	{background: transparent;}\nbody {-webkit-tap-highlight-color: rgb(255,255,158);}\n\n\n\n/*		Default Layout: 992px. \n		Gutters: 24px.\n		Outer margins: 48px.\n		Leftover space for scrollbars @1024px: 32px.\n-------------------------------------------------------------------------------\ncols    1     2      3      4      5      6      7      8      9      10\npx      68    160    252    344    436    528    620    712    804    896    */\n\nbody {\n	background: rgb(255,255,255); \n	color: rgb(60,60,60);\n	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */\n	 -webkit-hyphens: auto;\n    -moz-hyphens: auto;\n	-m-hyphens: auto;\n    hyphens: auto;\n}\n\n.rounded-corners (@radius: 3px) {\n  border-radius: @radius;\n  -webkit-border-radius: @radius;\n  -moz-border-radius: @radius;\n}\n\n.transition_in(@time: 0.5s){\n\n  -moz-transition-property: background-color, color;\n  -moz-transition-duration: @time;\n  -moz-transition-timing-function: ease-out;\n  -webkit-transition-property: background-color, color;\n  -webkit-transition-duration: @time;\n  -o-transition-property: background-color, color;\n  -o-transition-duration: @time;\n\n\n}\n\n.transition_out(@time: 0.5s){\n\n  -moz-transition-property: background-color, color;\n  -moz-transition-duration: @time;\n  -moz-transition-timing-function: ease-out;\n  -webkit-transition-property: background-color, color;\n  -webkit-transition-duration: @time;\n  -o-transition-property: background-color, color;\n  -o-transition-duration: @time;\n\n\n}\n\n\n\n\n@-moz-keyframes falldown{0%{-moz-transform:translate(0, -80px)}50%{-moz-transform:translate(0, -80px)}75%{-moz-transform:translate(0, 10px)}100%{-moz-transform:translate(0, 0px)}}\n@-webkit-keyframes falldown{0%{-webkit-transform:translate(0, -80px)}50%{-webkit-transform:translate(0, -80px)}75%{-webkit-transform:translate(0, 10px)}100%{-webkit-transform:translate(0, 0px)}}\n\n@-ms-keyframes falldown{0%{-ms-transform:translate(0, -80px)}50%{-ms-transform:translate(0, -80px)}75%{-ms-transform:translate(0, 10px)}100%{-ms-transform:translate(0, 0px)}}\n/*\n----------------------------\n*/\n\n\n\nbody{border-top:5px solid #444;  \n\n}\n\n\na{color:@link;}\na:hover{color:@hover;}\n\n\n\n.clearfix{clear:both;}\n\n\n\n\n#home .home,\n#about .about, \n#work .work, \n#contact .contact{\n\n background-color: #f2f2f2;\n    border-bottom: 1px solid @thin-border;\n    color: #1E90DE !important;\n	\n	\n	&:hover{ background:none; border-bottom:none;}\n	\n}\n\n\n\n#wrapper{\n	width:800px;\n	margin:0 auto;\n	\n}\n\n	#header {\n		position:relative;\n		height:80px;\n	\n\n 		\n\n		#title{margin:0px; padding:0px; font-size:24px; width:300px; line-height:19px; position:absolute; top:35px;\n		font-family: Georgia,serif;\n			a{text-decoration:none; color:#444;}\n			span{display:none;}\n			em{float:left; font-size:11px; font-weight:normal; letter-spacing:0.13em;}\n		}\n\n		\n		#navigation{\n			font-family: Georgia,serif;\n			font-size: 20px;\n			left: 300px;\n			list-style: none outside none;\n			position: absolute;\n			\n			ul{\n				margin:0px; \n				padding:0px;\n			}\n		}	\n		\n		#navigation li{\n			list-style-type:none;\n			float:left;\n		}			\n		\n		#navigation .home , \n		#navigation .about,\n		#navigation .work , \n		#navigation .contact {		\n			margin-right: 10px;\n\n		}\n		\n\n		\n		#navigation .home a, \n		#navigation .about a,\n		#navigation .work a, \n		#navigation .contact a{\n		\n			color: #333333;\n			display: block;\n			padding: 36px 8px 3px;\n			.transition_in;\n			text-decoration: none;\n			\n			\n				\n				&:hover {\n				color: #1E90DE;\n				background-color: #f2f2f2;\n				.transition_out;\n				border-bottom: 1px solid @thin-border\n			}			\n		}\n\n		\n		 \n		\n		#navigation .twitter{\n\n			a{\n			    background-color: transparent;\n				border: 1px solid #FFFFFF;\n				.rounded-corners;\n				.transition_in;\n				color: #333333;\n				display: block;\n				font-size: 14px;\n				margin-top: 24px;\n				padding: 8px !important;\n				text-decoration: none;\n				\n				\n				&:hover {\n				color: #1E90DE;\n				.transition_out;\n				background-color: #f2f2f2;\n				border: 1px solid @thin-border\n			}		\n			}		\n			\n			.twitter-icon{background:url(/static/images/bg_image.png) no-repeat -20px -20px; display:block; overflow:hidden; text-indent:-999px; width:16px; height:16px; float:left; margin-top:7px; margin-right:5px;}\n			.s-card{text-align:left;}\n			.s-card a{margin:0px !important; padding:0px !important; display:inline !important;}\n		}\n\n		.github{\n			margin-left: 20px;\n			a{\n			    background-color: transparent;\n				border: 1px solid #FFFFFF;\n				.rounded-corners;\n				.transition_in;\n				color: #333333;\n				display: block;\n				font-size: 14px;\n				margin-top: 24px;\n				padding: 8px !important;\n				text-decoration: none;\n				\n				\n				&:hover {\n				color: #1E90DE;\n				.transition_out;\n				background-color: #f2f2f2;\n				border: 1px solid @thin-border\n			}		\n			}	\n\n\n\n				.github-icon{background:url(/static/images/bg_image.png) no-repeat -20px -50px; display:block; overflow:hidden; text-indent:-999px; width:16px; height:16px; float:left; margin-top:7px; margin-right:5px;}\n	\n\n		}		\n\n	}\n\n\n	#main{\n		clear: both;\n		margin:20px 0px;\n\n		#banner{\n			\n			height:350px;\n			clear:both;\n			position:relative;\n\n\n			.title{\n				color: #000;\n				top:60px;\n				position:absolute;\n				margin-left:380px;\n			}\n			.context{\n				color: #444;\n				top:160px;\n				position:absolute;\n				margin-left:380px;					\n			}\n			.button-links{	top:250px; position:absolute;	margin-left:380px;	}\n		}	\n\n	\n		#primary {\n			float: left;\n			margin: 0 -280px 0px 0;\n			width: 100%;\n		}\n\n			#content {\n				margin: 0 280px 0px 0px;\n				width: 520px;				\n			}\n\n		#secondary {\n			float: right;\n			width: 240px;\n		}\n\n	}\n	\n	\n	.page-title, .widget-title{		}\n	.page-title{font-size:2.2em; }\n	.page-content{}\n	.page-content h2{font-size:1.2em; }\n\n\n	.widget{\n\n		margin-bottom:20px;\n\n	.widget-title{line-height:1.8em; margi"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/yoosuf/Projects/heroku/magpielab/magpielab.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true
+}

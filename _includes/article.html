@@ -1,0 +1,52 @@
+
+
+	<article class="post">
+
+		<header class="post-header">
+			<h1 class="post-title">{{ page.title }}</h1>
+		</header><!-- .post-title -->
+		<div class="post-meta">
+			<time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+			<cite><em>by</em> Yoosuf</cite>
+		</div><!-- .post-meta -->
+		<div class="post-content">
+			{{ content }}
+		</div><!-- .post-content -->
+		<footer class="post-footer">
+
+		</footer><!-- .post-footer -->
+	</article><!-- .post -->
+
+	<div class="comments">
+
+
+		<div class="fb-comments" data-href="{{ site.production_url }}{{ page.url }}" data-num-posts="2" data-width="620"></div>
+
+		<!--
+	<div class="fb-like" data-href="my.domain.com" data-layout="standard" data-send="false" data-width="255" data-show-faces="false" data-action="recommend" data-font="verdana"></div>
+-->
+	</div>
+
+
+	<nav class="pagenation">
+		<ul>
+			{% if page.previous %}
+				<li class="before left"><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&laquo; Previous</a></li>
+			{% endif %}
+			{% if page.next %}
+				<li class="next right"><a rel="next" href="{{ page.next.url }}" title="View {{ page.next.title }}">Next &raquo;</a></li>
+			{% endif %}
+		</ul>
+	</nav>
+
+	<!--
+	<div id="related" class="clear">
+	  <h2>Related Posts</h2>
+	  <ul class="posts">
+	    {% for post in site.related_posts limit:3 %}
+	      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
+	-->
+

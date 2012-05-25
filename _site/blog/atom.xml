@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Magpie Lab | Web Design, Web Development, and Mobile Development</title>
+ <link href="http://magpielab.com/atom.xml" rel="self"/>
+ <link href="http://magpielab.com"/>
+ <updated>2012-05-25T00:15:56+01:00</updated>
+ <id>http://layouts.studiomohawk.com/</id>
+
+ 
+ <entry>
+   <title>Behind the scene</title>
+   <link href="http://magpielab.com/blog/2012/05/19/behind-the-scene/"/>
+   <updated>2012-05-19T00:00:00+01:00</updated>
+   <id>http://magpielab.com/blog/2012/05/19/behind-the-scene</id>
+   <content type="html">&lt;p&gt;After 3 years we had several hiccups in our servers and finally we made a strategic decision to migrate the website to Ruby Platform and hosted it on &lt;a href='http://www.heroku.com/' target='_blank'&gt;Heroku&lt;/a&gt; (a Cloud Server).&lt;/p&gt;
+
+&lt;p&gt;There are many reasons for choosing Ruby to our website and the first main reason is there are tons of Ruby applications servers available and all of them are some what highly reliable. hence we choose the &lt;a href='http://www.heroku.com/' target='_blank'&gt;Heroku&lt;/a&gt;, because it is a most trusted Application Platform by most of the developer community, as well as the scaling the application process can be done with few clicks.&lt;/p&gt;
+
+&lt;p&gt;For the design concept we simply following the Monochromic colours. We believe the colour of the website and the Branding should match with the name.&lt;/p&gt;
+
+&lt;h4 id='behind_the_scene'&gt;Behind the scene&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are using &lt;a href='http://jekyllrb.com/' target='_blank'&gt;Jekyll&lt;/a&gt; (one of the Static site generation GEM for Ruby) and it helped us to create a super speed static website site.&lt;/li&gt;
+
+&lt;li&gt;We are using the free instance of Heroku platform.&lt;/li&gt;
+
+&lt;li&gt;Styles Generated with &lt;a href='http://lesscss.org/' target='_blank'&gt;LESS&lt;/a&gt;.&lt;/li&gt;
+
+&lt;li&gt;and some bits and pieces of Javascript made up with the support of &lt;a href='http://jquery.com/' target='_blank'&gt;jQuery&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello, You!</title>
+   <link href="http://magpielab.com/blog/2012/05/03/hello-you/"/>
+   <updated>2012-05-03T00:00:00+01:00</updated>
+   <id>http://magpielab.com/blog/2012/05/03/hello-you</id>
+   <content type="html">&lt;p&gt;Thank you for visiting Magpie Lab and finally we are in a better place in the web. We will be keep posting interesting stuff about us and our workflow. We believe it will be interesting.&lt;/p&gt;
+
+&lt;p&gt;Thats all about it for now.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

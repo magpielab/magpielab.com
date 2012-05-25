@@ -1,0 +1,35 @@
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
+
+sitename:  Magpie Lab
+tagline: Web Design, Web Development, and Mobile Development
+
+production_url : http://magpielab.com
+url: http://magpielab.com
+
+safe:        false
+auto:        false
+baseurl:    /
+
+
+future:      false
+pygments:    true
+markdown:    maruku
+permalink:   /blog/:year/:month/:day/:title/
+
+
+
+
+navigation:
+- text: Home
+  url: /
+  layout: default  
+- text: About us
+  url: /about/
+  layout: page  
+- text: Blog
+  url: /blog/
+  layout: archive
+
+
+
+

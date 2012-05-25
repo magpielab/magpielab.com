@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://magpielab.com/blog/2012/05/03/hello-you/</loc>
+        <lastmod>2012-05-20T21:20:06+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://magpielab.com/blog/2012/05/19/behind-the-scene/</loc>
+        <lastmod>2012-05-20T21:20:06+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://magpielab.com/about/</loc>
+        <lastmod>2012-05-20T21:21:16+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://magpielab.com/blog/</loc>
+        <lastmod>2012-05-20T21:22:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://magpielab.com/</loc>
+        <lastmod>2012-05-20T21:19:31+01:00</lastmod>
+    </url>
+</urlset>

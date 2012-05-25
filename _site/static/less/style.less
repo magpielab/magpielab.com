@@ -1,0 +1,1004 @@
+/*
+
+	By Yoosuf
+	Made in London
+
+	copyright Magpie Lab
+	
+*/
+
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+/* typography.css */
+html {font-size:100.01%;}
+body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+.left {float:left !important;}
+p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
+.right {float:right !important;}
+p .right {margin:1.5em 0 1.5em 1.5em;padding:0;}
+a:focus, a:hover {color:#09f;}
+a {color:#06c;text-decoration:underline;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong, dfn {font-weight:bold;}
+em, dfn {font-style:italic;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:1.5em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tbody tr:nth-child(even) td, tbody tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+caption {background:#eee;}
+.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
+.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+.hide {display:none;}
+.quiet {color:#666;}
+.loud {color:#000;}
+.highlight {background:#ff0;}
+.added {background:#060;color:#fff;}
+.removed {background:#900;color:#fff;}
+.first {margin-left:0;padding-left:0;}
+.last {margin-right:0;padding-right:0;}
+.top {margin-top:0;padding-top:0;}
+.bottom {margin-bottom:0;padding-bottom:0;}
+/* Selection colours (easy to forget) */
+
+
+/*
+*::selection {
+	background:rgb(224,233,255);
+	color:#604865;
+}
+
+*::-moz-selection {
+	background:rgb(224,233,255);
+	color:#604865;
+}
+
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+*/
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+
+	background: rgb(255,255,255);
+	color: rgb(60,60,60);
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+
+	font: 18px/24px "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#wrapper{
+	
+}
+
+.inner{
+	width: 896px;
+	margin:0 auto;
+	padding: 0px 48px 0px;
+	position: relative;
+
+}
+
+a{
+color: rgb(0,182,222);
+}
+a:hover{
+color:rgb(0,203,248);
+}
+
+
+
+
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+html{
+		background-color: #fff;
+
+}
+
+#header{
+
+
+	background-color: #33363B;
+	width:100%;
+
+	.inner{
+
+		height:60px;
+		overflow: hidden;
+
+
+
+
+
+		#site-name{
+			padding-bottom:0px;
+			color:rgb(212,212,212);
+		    font-size: 28px;
+		    letter-spacing: -1px;
+		    line-height: 32px;
+		    float: left;
+		    position: absolute;
+		    left:48px;
+		    top:15px;
+		}
+
+
+		#navigation{
+			position: absolute;
+			left:250px;
+			top:20px;
+
+			ul{
+				margin: 0px;
+				padding: 0px;
+			}
+
+
+
+			li{
+				list-style-type: none;
+				float: left;
+				display: inline;
+				margin: 0px 10px 0px 0px;
+				position: relative;
+				font-weight:normal;
+
+				a{
+
+					color: #959B9D;
+					text-decoration:none;
+					padding: 6px 10px;
+
+					&:hover{
+						color: #ffffff;
+					}
+
+
+					&.current{
+						background-color:#292B2F;
+						color: #fff;
+						border-radius:5px;
+
+					}					
+				}
+
+
+
+
+				&.facebook{
+					left:220px;
+				}
+
+				&.twitter{
+					left:225px;
+				}
+			}
+		}	
+
+
+
+	}
+}
+
+
+
+#banner {
+
+	padding: 100px 0px 50px 0px;
+
+
+	.darker{
+
+		font-size:92px;
+		line-height:92px;
+		color:#33383D;
+		font-weight:900;
+	}
+
+	.atract{
+		font-size:82px;
+		line-height:82px;
+		color:#999999;
+		font-weight: 400;
+	}
+
+	.actions{
+		font-size:24px;
+		line-height:36px;
+		color:#666666;
+	}
+
+}
+
+
+
+#main{
+	padding: 20px 0px 40px 0px;
+
+
+
+	.maincontent{
+
+		float: left;
+		width:600px;
+
+
+
+
+
+	}
+
+
+	.seconderycontent{
+
+	}
+
+
+
+	#primary{
+
+
+		.page, 
+		.archive{
+
+			.page-header,
+			.archive-header{
+
+				clear: both;
+				display: block;
+
+				.page-title,
+				.archive-title{
+
+					font-size: 64px;
+					line-height: 72px;
+					color:#33383D;
+					margin-bottom:0.25em;
+					font-weight:bold;
+
+
+				}
+
+				.page-intro{
+
+					font-size: 24px;
+					line-height:36px;
+					color: #999999;
+				}
+
+			}
+
+			.page-content,
+			.archive-content{
+
+
+			}
+
+
+		}
+
+		.comments{
+			width:620px;
+			margin: 0px auto;
+		}
+
+
+		.pagenation{
+			clear: both;
+			display: block;
+			ul{
+				li{
+					list-style-type: none;
+					margin:0px;
+					padding:0px;
+					a{
+						text-decoration:none;
+					}
+				}
+			}
+		}
+
+
+	}
+
+
+
+	#secondery{
+
+		display: block;
+		background-color: #DDD;
+		margin: 20px 0 50px;
+		background: #E3E3E0;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
+
+
+
+
+		.social-links{
+			ul{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			li{
+				float: left;
+				width:33%;
+				list-style-type: none;
+				text-align:center;
+			}
+
+			a{
+				display: block;
+			}
+		}
+
+	}
+
+}
+
+
+/*
+.spread-love{
+position:absolute;
+left:840px;
+top:100px;
+}
+
+.section{
+	margin:40px 0px 0px;
+}
+
+.item{
+	margin:20px 0px;
+}
+*/
+
+h3{
+	color:rgb(0,182,222) /* rgb(156,25,68) */ ;
+margin-bottom:0.25em;
+}
+p{
+margin-bottom:20px;
+text-overflow: ellipsis;
+
+}
+
+
+/*
+
+.page-title, 
+.archive-title,
+.section-title{
+	font-size: 42px;
+	line-height: 48px;
+	color:rgb(0,182,222) ;
+	margin-bottom:0.25em;
+}
+*/
+
+
+.post{
+	width:620px;
+	margin:0 auto;
+}
+
+
+.post-title{
+	font-size: 42px;
+	line-height: 48px;
+	color: rgb(0,182,222);
+}
+.post-meta{
+	color: #999999;
+}
+
+
+.section{
+clear:both;
+display:block;
+min-height:150px;
+}
+
+.brands{
+margin:0px;
+padding:0px;
+display:block;
+clear:both;
+height:70px;
+
+}
+
+.brands li{
+margin:0px;
+padding:0px;
+list-style-type:none;
+float:left;
+
+}
+
+.brands li + li {
+margin-left:20px;
+}
+
+
+
+
+
+#footer{
+	padding-top:40px;
+	color: #999999;
+	text-align:center;
+	font-size: 12px;
+
+	.inner{
+	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #ffffff;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050;
+  width: 560px;
+  margin: -250px 0 0 -280px;
+  overflow: auto;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.modal.fade {
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+      -ms-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+
+.modal.fade.in {
+  top: 50%;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-header .close {
+  position: absolute;
+  right:10px;
+  color: #666;
+  text-decoration:none;
+  cursor: pointer;
+
+  &:hover{
+  	color: #444;
+  }
+}
+
+.modal-body {
+  max-height: 400px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.modal-form {
+  margin-bottom: 0;
+}
+
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: "";
+}
+
+.modal-footer:after {
+  clear: both;
+}
+
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+
+
+/* hiding the typekit badge */
+.typekit-badge{
+	display:none !important;
+}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+
+	}
+
+	#wrapper{
+
+
+	}
+
+	.inner{
+				margin:0 auto;
+
+		width: 712px;
+		padding: 0px 28px;
+	}
+
+
+	#header{
+
+
+
+
+		.inner{
+
+
+			#site-name{
+				letter-spacing: -1px;
+				padding-bottom:20px;
+				
+				left:28px;
+			}
+
+
+
+
+			#navigation{
+				position: absolute;
+				left:200px;
+				top:20px;
+
+
+			
+
+						
+					
+
+
+					&.facebook{
+						left:140px;
+					}
+
+					&.twitter{
+						left:160px;
+					}
+				
+			}	
+
+
+
+
+
+
+
+		}
+
+
+	}
+
+
+
+
+
+	#banner {
+
+
+		padding: 100px 0px 50px 0px;
+
+
+		.darker{
+
+			font-size:72px;
+			line-height:72px;
+		}
+
+		.atract{
+			font-size:62px;
+			line-height:62px;
+		}
+
+		.actions{
+			font-size:18px;
+			line-height:36px;
+		}
+
+	}
+
+
+
+	.post{
+		width:100%;
+		margin:0 auto;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+		iPhone
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+
+		font-size: 14px;
+
+	}
+
+	#wrapper{
+
+		
+	}
+
+
+		.inner{
+
+			margin:0 auto;
+			width: 260px;
+			padding: 0px 20px;
+		}
+
+	#header{
+		position: fixed;
+		z-index: 99;
+
+
+		.inner{
+			height:40px;
+
+
+			#site-name{
+				left:20px;
+				font-size: 18px;
+				top:5px;
+			}
+
+
+
+			#navigation{
+				 left:200px;
+				 font-size: 14px;
+			}	
+		}
+
+
+	}
+
+
+
+	#banner{
+		padding: 100px 0 20px;
+
+		.inner{
+			padding: 0px 0px 0px 0px;
+
+			.atract{
+				font-size: 28px;
+				line-height:28px;
+
+				span{
+					font-size: 32px;
+					line-height:32px;
+				}
+			}
+
+			.actions{
+				font-size: 14px;
+			}
+		}
+	}
+
+
+	#main{
+
+
+		.inner{
+			padding: 0px;
+
+
+			.section-title{
+				font-size: 24px;
+			}
+
+		}
+
+		
+	}
+
+	.layout_archive #main,
+	.layout_page #main,
+	.layout_post #main{
+		padding: 60px 0px;
+	}
+	
+
+
+
+	h1, h2, h3, h4, h5{
+		font-weight:normal;
+	}
+	
+	h3 {
+		font-size: 18px;
+		line-height: 36px;
+	}
+	.page-title, 
+	.archive-title,
+	.section-title{
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.post{
+		width:100%;
+		margin:0 auto;
+	}
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050;
+  width: 260px;
+  margin: -250px 0 0 -130px;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+
+		iPad 
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+
+	}
+	#wrapper{
+
+		
+	}
+	.inner{
+
+		margin:0 auto;
+		width: 436px;
+		padding: 0px 22px;
+	}
+
+	#header{
+
+
+		.inner{
+
+			#site-name{
+				left:22px;
+			}
+
+
+			#navigation{
+				top:10px;
+				left:150px;
+			}
+
+		
+		}
+	}
+
+
+
+
+	#banner{
+		padding: 100px 0 50px;
+
+		.inner{
+			padding: 0px 0px 0px 0px;
+
+			.atract{
+				font-size: 46px;
+				line-height:36px;
+
+				span{
+					font-size: 52px;
+					line-height:52px;
+				}
+			}
+
+			.actions{
+				font-size: 18px;
+			}
+		}
+	}
+
+
+	.modal {
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  z-index: 1050;
+	  width: 436px;
+	  margin: -250px 0 0 -200px;
+	}
+
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	.spread-love{
+display: none;
+
+}
+}
+
+
+
+
+
+
+
+
